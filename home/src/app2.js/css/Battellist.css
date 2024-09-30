@@ -1,0 +1,52 @@
+.avatar img {
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .cash-display {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .cash-amount {
+    margin-left: 5px;
+    color: green;
+  }
+  
+  .battle-list {
+    padding: 20px;
+  }
+  
+  .battle-card {
+    background-color: #ffe6f0;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .open-battle, .battle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .players {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+  
+  .prize-pool {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .view-button, .entry-button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }

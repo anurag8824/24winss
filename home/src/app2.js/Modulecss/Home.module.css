@@ -1,0 +1,446 @@
+.mainArea {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+}
+
+.battleInputHeader {
+    color: #959595;
+    font-size: .76em;
+    margin-bottom: -5px;
+    margin-top: 5px;
+}
+
+.battleInputHeader, .playButton {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto' !important;
+    -webkit-font-smoothing: antialiased; 
+    -webkit-tap-highlight-color: transparent;
+}
+
+.cxy, .refer-button-copy {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.formControl {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.playButton {
+    border: none;
+    border-radius: 5px;
+    font-size: .7em;
+    height: 30px;
+    padding: 0 22px;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.dividerX {
+    background: #f1f1f1;
+    width: 100%;
+    height: 10px;
+}
+
+.gamesSectionTitle {
+    color: #2c2c2c;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.gamesSectionHeadline {
+    color: #959595;
+    font-size: .75em;
+    font-weight: 400;
+    line-height: 18px;
+}
+.gamesSectionHeadline > img {
+    width: 20px;
+    margin-right: 3px;
+  }
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,800,900&display=swap"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins%7CRoboto"); 
+* { 
+    box-sizing: border-box;
+} 
+
+div { 
+    font-family: Roboto; 
+    -webkit-font-smoothing: antialiased; 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+
+
+
+#root { 
+    display: flex !important;
+} 
+
+body{ 
+    margin: 0; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-size: 1rem; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    color: rgb(33, 37, 41); 
+    text-align: left; 
+    background-color: rgb(255, 255, 255); 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px;
+} 
+
+body { 
+    margin: 0; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px;
+} 
+
+body { 
+    font-family: Roboto; 
+    -webkit-font-smoothing: antialiased; 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+html { 
+    font-family: sans-serif; 
+    line-height: 1.15; 
+    -webkit-text-size-adjust: 100%; 
+    -webkit-tap-highlight-color: transparent; 
+    text-size-adjust: 100%;
+} 
+
+html { 
+    font-family: Roboto; 
+    -webkit-font-smoothing: antialiased; 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+.py-3 { 
+    padding-top: 1rem !important;
+} 
+
+.py-3 { 
+    padding-bottom: 1rem !important;
+} 
+
+.px-4 { 
+    padding-right: 1.5rem !important;
+} 
+
+.px-4 { 
+    padding-left: 1.5rem !important;
+} 
+
+*,:after,:before { 
+    box-sizing: border-box;
+} 
+
+:-webkit-scrollbar { 
+    display: none;
+} 
+
+.mb-2 { 
+    margin-bottom: 0.5rem !important;
+} 
+
+.mt-1 { 
+    margin-top: 0.25rem !important;
+} 
+
+.betCard { 
+    background-color: rgb(252, 247, 255); 
+    border: 1px solid #f5e3ff; 
+    border-radius: 5px; 
+    position: relative; 
+    -webkit-animation: linear; 
+    -webkit-animation-name: leftToRight; 
+    -webkit-animation-duration: .3s; 
+    border-top-width: 1px; 
+    border-right-width: 1px; 
+    border-bottom-width: 1px; 
+    border-left-width: 1px; 
+    border-top-style: solid; 
+    border-right-style: solid; 
+    border-bottom-style: solid; 
+    border-left-style: solid; 
+    border-top-color: rgb(245, 227, 255); 
+    border-right-color: rgb(245, 227, 255); 
+    border-bottom-color: rgb(245, 227, 255); 
+    border-left-color: rgb(245, 227, 255); 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    animation-timing-function: linear; 
+    animation-delay: 0s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: none; 
+    animation-play-state: running; 
+    animation-name: leftToRight; 
+    animation-duration: 0.3s;
+} 
+
+img { 
+    border-style: none; 
+    border-top-style: none; 
+    border-right-style: none; 
+    border-bottom-style: none; 
+    border-left-style: none;
+} 
+
+img { 
+    vertical-align: middle;
+} 
+
+img { 
+    font-family: Roboto; 
+    -webkit-font-smoothing: antialiased; 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+span { 
+    font-family: Roboto; 
+    -webkit-font-smoothing: antialiased; 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+.gamesSectionTitle { 
+    color: rgb(44, 44, 44); 
+    font-size: 1em; 
+    font-weight: 700;
+} 
+
+
+
+
+
+.betCardTitle { 
+    border-bottom: 1px solid #f5e3ff; 
+    color: rgb(44, 44, 44); 
+    font-size: 0.65em; 
+    font-weight: 700; 
+    height: 30px; 
+    width: 100%; 
+    border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    border-bottom-color: rgb(245, 227, 255);
+} 
+
+/* .gamesSectionHeadline > img  { 
+    width: 20px; 
+    margin-right: 3px;
+}  */
+
+
+
+button { 
+    border-radius: 0; 
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px; 
+    border-bottom-left-radius: 0px;
+} 
+
+button { 
+    margin: 0; 
+    font-family: inherit; 
+    font-size: inherit; 
+    line-height: inherit; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px;
+} 
+
+button { 
+    overflow: visible; 
+    overflow-x: visible; 
+    overflow-y: visible;
+} 
+
+button { 
+    text-transform: none;
+} 
+
+button { 
+    -webkit-appearance: button; 
+    appearance: button;
+} 
+
+.bgSecondary { 
+    background-color: rgb(108, 117, 125) !important;
+} 
+
+.cxy { 
+    align-items: center; 
+    display: flex; 
+    justify-content: center;
+} 
+
+.playButton { 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 0.7em !important; 
+    height: 30px; 
+    padding: 0 22px; 
+    color: rgb(255, 255, 255) !important; 
+    position: absolute; 
+    right: 10px; 
+    bottom: 10px; 
+    border-top-width: initial; 
+    border-right-width: initial; 
+    border-bottom-width: initial; 
+    border-left-width: initial; 
+    border-top-style: none; 
+    border-right-style: none; 
+    border-bottom-style: none; 
+    border-left-style: none; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    text-decoration: none;
+    padding-top: 0px; 
+    padding-right: 22px; 
+    padding-bottom: 0px; 
+    padding-left: 22px;
+} 
+.playButton:hover{
+    color: white !important;
+    text-decoration: none;
+}
+.playButton { 
+    font-weight: 700; 
+    text-transform: uppercase;
+} 
+
+ button:not(:disabled) { 
+    cursor: pointer;
+} 
+
+button.bg-secondary:hover { 
+    background-color: rgb(84, 91, 98) !important;
+} 
+
+.betCardSubTitle { 
+    color: rgb(223, 168, 255); 
+    font-size: 0.55em; 
+    font-weight: 500; 
+    min-width: 50px; 
+    text-transform: uppercase;
+} 
+
+.betCardAmount { 
+    padding-left: 2px; 
+    font-size: 0.9em; 
+    font-weight: 900; 
+    text-transform: uppercase;
+} 
+
+
+@keyframes leftToRight { 
+  0% {  
+      left: -500px; 
+      left: -500px; 
+  }  
+  100% {  
+      left: 0; 
+      left: 0px; 
+  }  
+
+} 
+
+
+/*  running battles   start  */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,800,900&display=swap"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+* { 
+    box-sizing: border-box;
+} 
+
+
+
+*,:after,:before { 
+    box-sizing: border-box;
+} 
+
+:-webkit-scrollbar { 
+    display: none;
+} 
+
+.betCard-title { 
+    border-bottom: 1px solid #f5e3ff; 
+    color: rgb(44, 44, 44); 
+    font-size: 0.65em; 
+    font-weight: 700; 
+    height: 30px; 
+    width: 100%; 
+    border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    border-bottom-color: rgb(245, 227, 255);
+} 
+
+
+
+
+
+
+.betCard_playerName { 
+    padding-left: 10px; 
+    font-size: 0.7em; 
+    font-weight: 500; 
+    line-height: 1px;
+} 
+
+/*  running battles   end   */
+
+
+.betCard_playerName {
+    padding-left: 10px;
+    font-size: .7em;
+    font-weight: 500;
+    line-height: 1px;
+  }

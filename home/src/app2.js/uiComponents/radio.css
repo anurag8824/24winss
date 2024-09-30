@@ -1,0 +1,24 @@
+.radio-group__button-group {
+  display: inline;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.buttona {
+  padding: 0.30rem 0.6rem;
+  font-size: 0.65rem;
+  min-width: 100px;
+  max-width: max-content;
+  background-color: #aaa;
+  border: 0;
+  color: white;
+  margin: 5px!important;
+}
+
+.buttona[aria-checked="true"] {
+  background-color: #1864ab;
+}
+
+.buttona:hover {
+  background-color: #228be6;
+}

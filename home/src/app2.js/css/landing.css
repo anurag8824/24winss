@@ -1,0 +1,383 @@
+.headerContainer, .leftContainer {
+    background-color: #fff;
+    max-width: 480px;
+    width: 100%;
+
+}
+
+* {
+    font-family: "Roboto";
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.leftContainer {
+    min-height: 0%;
+    position: relative;
+}
+
+.headerContainer {
+    position: fixed;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 6%);
+    height: 0px;
+    padding: 0;
+    top: 0;
+    z-index: 2;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLogo>img {
+    height: 36px;
+    width: 36px;
+}
+
+.login-btn {
+    border: 1px solid #3e51b5;
+    color: #3e51b5;
+    border-radius: 3px;
+    font-size: 1em;
+    font-weight: 700;
+    height: 30px;
+    padding: 2px 21px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.rightContainer {
+    background: url(../../../public/Images/global-bg-rays.svg);
+    background-color: #fff;
+    background-size: cover;
+    overflow: hidden;
+    right: 0;
+    z-index: 4;
+}
+
+.rightContainer {
+    bottom: 0;
+    left: 480px;
+    position: fixed;
+    top: 0;
+    border-left: 10px solid #e0e0e0;
+}
+
+.rcBanner-footer>img {
+    height: 25px;
+    width: 25px;
+    margin-top: 4px;
+}
+
+.rcBanner-img-container {
+    bottom: 45%;
+    position: absolute;
+    width: 300px;
+}
+
+.rcBanner-img-container>img {
+    height: auto;
+    width: 300px;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rcBanner-text {
+    bottom: 35%;
+    font-family: "Roboto Condensed";
+    font-size: 2em;
+    font-weight: 400;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.rcBanner-text-bold {
+    font-weight: 900;
+}
+
+.main-area {
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+}
+
+.games-section {
+    background: #fff;
+    border-radius: 0;
+    position: relative;
+    width: 100%;
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+.games-section-headline {
+    color: #959595;
+    font-size: .75em;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.games-window {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gameCard-container {
+    /* margin-top: 20px; */
+    justify-content: center;
+    position: relative;
+    width: 46.8%;
+}
+
+.blink {
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.gameCard {
+    background-color: #fff;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.gameCard-image {
+    border-radius: 5px;
+    height: 68.33%;
+    width: 100%;
+}
+.gameCard-image img{
+    border-radius: 5px;
+}
+.gameCard-icon, .gameCard-title {
+    display: flex;
+    justify-content: center;
+}
+
+.gameCard-title {
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    color: #2c2c2c;
+    font-weight: 700;
+    padding: 15px 20px 10px;
+}
+
+.games-section-title {
+    color: #2c2c2c;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.rcBanner-footer {
+    bottom: 40px;
+    color: #2c2c2c;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 32px;
+    position: absolute;
+    text-align: center;
+}
+
+.footer {
+    /* background-image: linear-gradient(rgb(61, 128, 197), rgb(37, 61, 118)) !important; */
+    border-radius: 0 !important;
+    position: relative !important;
+    width: 100% !important;
+    text-decoration: black;    
+    padding: 1% !important;
+}
+
+.footer-2{
+    
+    background-image: linear-gradient(to right, #74e933 , #e9d629);
+}
+
+.footer-divider {
+    
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-links>a {
+    color: #050505 !important;
+    display: flex !important;
+    font-size: 1.3em !important;
+    font-weight: 400 !important;
+    margin-bottom: 10px !important;
+}
+
+.footer-text-bold {
+    color: #050505;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.footer-text {
+    color: #050505;
+    font-size: .9em;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #0056b3 !important;
+    text-decoration: underline;
+}
+
+a {
+    color: #007bff !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+.gameCard-container .goverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.collapseCard-container {
+    padding: 30px 20px 20px;
+    background-color: #fafafa;
+}
+.collapseCard {
+    position: relative;
+    width: 100%;
+}
+.collapseCard-body {
+    padding-left: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+
+.collapseCard-header {
+    background-color: #fafafa;
+    padding-left: 3px;
+    padding-right: 3px;
+    top: -13px;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.collapseCard-title {
+    color: #676767;
+    font-size: .7em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.alert-box {
+    color: #21940a;
+    background-color: #080006;
+    border-color: #b8b265;
+    border-radius: 0;
+    padding: 9px 7px 2px 7px;
+}
+
+
+.header_top_message {
+    background-color: #e15252;
+    color: #fff!important;
+    font-family: Poppins,sans-serif!important;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 17px;
+    max-width: 480px;
+    padding: 8px;
+    text-align: center;
+    top: 10;
+    width: 480px;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+.w1 {
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 3px;}
+
+.w2 {
+    background-color: lightgreen; 
+    color: black; 
+    padding: 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    animation: 0s ease 0s infinite normal none running flash;
+}
+       
+.w3 {
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

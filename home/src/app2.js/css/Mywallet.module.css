@@ -1,0 +1,139 @@
+
+.profile_wallet { 
+    height: 70px; 
+    mix-blend-mode: normal; 
+    opacity: 1; 
+    background: rgb(255, 255, 255); 
+    border: 1px solid #e0e0e0; 
+    border-radius: 5px; 
+    background-image: initial; 
+    background-position-x: initial; 
+    background-position-y: initial; 
+    background-size: initial; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: rgb(255, 255, 255); 
+    border-top-width: 1px; 
+    border-right-width: 1px; 
+    border-bottom-width: 1px; 
+    border-left-width: 1px; 
+    border-top-style: solid; 
+    border-right-style: solid; 
+    border-bottom-style: solid; 
+    border-left-style: solid; 
+    border-top-color: rgb(224, 224, 224); 
+    border-right-color: rgb(224, 224, 224); 
+    border-bottom-color: rgb(224, 224, 224); 
+    border-left-color: rgb(224, 224, 224); 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    border-bottom-left-radius: 5px;
+} 
+.my_text{
+    font-size: 0.9em;
+    color: rgb(191,211,255);
+}
+.my_text2{
+    font-size: 0.9em;
+    color: rgb(216,224,255);
+}
+.divider_x { 
+    background: #f1f1f1; 
+    width: 105%; 
+    height: 20px; 
+    background-image: initial; 
+    background-position-x: initial; 
+    background-position-y: initial; 
+    background-size: initial; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: rgb(241, 241, 241);
+} 
+.wallet_card { 
+    background-color: rgb(71,130,244);
+    background-size: cover; 
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+    max-width: 480px; 
+    height: 209px; 
+    padding: 20px; 
+    position: relative; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    padding-top: 20px; 
+    padding-right: 20px; 
+    padding-bottom: 20px; 
+    padding-left: 20px;
+}  
+.wallet_card2 { 
+    background-color: rgb(127,153,255);
+    background-size: cover; 
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+    max-width: 480px; 
+    height: 209px; 
+    padding: 20px; 
+    position: relative; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    padding-top: 20px; 
+    padding-right: 20px; 
+    padding-bottom: 20px; 
+    padding-left: 20px;
+}  
+
+
+.walletCard_btn { 
+    position: absolute; 
+    right: 20px; 
+    top: 30px; 
+    height: 30px; 
+    width: 120px; 
+    border-radius: 3px; 
+    font-size: 0.8em !important; 
+    font-weight: 700; 
+    padding: 6px 10px; 
+    border: 1px solid #fff; 
+    color: rgb(255, 255, 255); 
+    background-color: transparent; 
+    border-top-left-radius: 3px; 
+    border-top-right-radius: 3px; 
+    border-bottom-right-radius: 3px; 
+    border-bottom-left-radius: 3px; 
+    padding-top: 6px; 
+    padding-right: 10px; 
+    padding-bottom: 6px; 
+    padding-left: 10px; 
+    border-top-width: 1px; 
+    border-right-width: 1px; 
+    border-bottom-width: 1px; 
+    border-left-width: 1px; 
+    border-top-style: solid; 
+    border-right-style: solid; 
+    border-bottom-style: solid; 
+    border-left-style: solid; 
+    border-top-color: rgb(255, 255, 255); 
+    border-right-color: rgb(255, 255, 255); 
+    border-bottom-color: rgb(255, 255, 255); 
+    border-left-color: rgb(255, 255, 255); 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial;
+} 
+
+
+

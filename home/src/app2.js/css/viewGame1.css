@@ -1,0 +1,394 @@
+
+
+.main-area {
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+}
+
+.battleCard-bg {
+    background-color: #f8f7f7;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.battleCard {
+    margin: 20px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.battleCard .players {
+    color: #959595;
+    font-size: .75em;
+    font-weight: 700;
+}
+.cxy, .refer-button-copy {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.pt-2, .py-2 {
+    padding-top: 0.5rem!important;
+}
+.battleCard .players {
+    color: #959595;
+    font-size: .75em;
+    font-weight: 700;
+}
+img, svg {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.ml-3, .mx-3 {
+    margin-left: 1rem!important;
+}
+.mr-3, .mx-3 {
+    margin-right: 1rem!important;
+}
+.cxy, .refer-button-copy {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.flex-column {
+    flex-direction: column!important;
+}
+.battleCard .amount {
+    font-size: .75em;
+    font-weight: 1000;
+}
+.cxy, .refer-button-copy {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.mt-2, .my-2 {
+    margin-top: 0.5rem!important;
+}
+.thin-divider-x {
+    background-color: #e0e0e0;
+    bottom: 0;
+    height: 1px;
+    left: 57px;
+    right: 0;
+}
+.battleCard .roomCode {
+    background-color: #e8eeee;
+    margin: 30px 20px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    font-size: 1em;
+    font-weight: 500;
+}
+.cxy, .refer-button-copy {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.flex-column {
+    flex-direction: column!important;
+}
+.battleCard .roomCode span {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #4b85f3;
+}
+.battle-input-header, .playButton {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.playButton {
+    border: none;
+    border-radius: 5px;
+    font-size: .7em;
+    height: 30px;
+    padding: 0 22px;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.bg-green {
+    background-color: #0db25b;
+}
+.mt-2, .my-2 {
+    margin-top: 0.5rem!important;
+}
+.position-static {
+    position: static!important;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button {
+    border-radius: 0;
+}
+.battleCard .app-discription {
+    font-size: 1em;
+    font-weight: 800;
+}
+.cxy, .refer-button-copy {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.thin-divider-x {
+    background-color: #e0e0e0;
+    bottom: 0;
+    height: 1px;
+    left: 57px;
+    right: 0;
+}
+.battleCard .rules {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 30px 20px;
+    padding: 30px 20px;
+    font-size: 1em;
+    font-weight: 500;
+}
+.cxy, .refer-button-copy {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.battleCard .rules ol {
+    font-size: .7em;
+}
+.list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+}
+.list-group-item:first-child {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    font-weight: 800;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.list-group-item+.list-group-item {
+    border-top-width: 0;
+}
+.ml-1, .mx-1 {
+    margin-left: 0.25rem!important;
+}
+.mr-1, .mx-1 {
+    margin-right: 0.25rem!important;
+}
+img, svg {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.list-group-item:last-child {
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+.battleCard .match-status-border {
+    background-color: #eee;
+    padding: 10px 20px;
+    font-size: .9em;
+    font-weight: 600;
+    margin: 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.battleCard .result-area {
+    padding: 30px 20px;
+}
+.battleCard .result-area p {
+    color: #949494;
+    font-size: .8em;
+    font-weight: 500;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.battleCard .result-area .radios {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.MuiFormGroup-root {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.battleCard .result-area label {
+    font-size: .8em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.MuiFormControlLabel-root.Mui-disabled {
+    cursor: default;
+}
+.MuiFormControlLabel-root {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    /* margin-left: -11px; */
+    /* margin-right: 16px; */
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+.hidden {
+    display: none!important;
+}
+.jss8 {
+    color: #66bb6a;
+}
+.MuiRadio-root {
+    color: rgba(0, 0, 0, 0.54);
+}
+.jss1 {
+    padding: 9px;
+}
+.MuiIconButton-root {
+    flex: 0 0 auto;
+    color: rgba(0, 0, 0, 0.54);
+    padding: 12px;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 50%;
+}
+.MuiButtonBase-root {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.MuiTypography-body1 {
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+.MuiTypography-root {
+    margin: 0;
+}
+.battleCard .result-area label {
+    font-size: .8em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.MuiFormControlLabel-root {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    /* margin-left: -11px; */
+    /* margin-right: 16px; */
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.battleCard .result-area button {
+    font-size: .9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+.jss4 {
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    cursor: inherit;
+    /* height: 100%; */
+    /* margin: 0; */
+    /* opacity: 0; */
+    padding: 0;
+    z-index: 1;
+    /* position: absolute; */
+}
+.jss5 {
+    display: flex;
+    position: relative;
+}
+.battleCard .app-discription {
+    font-size: .8em;
+    font-weight: 600;
+}
+.cxy, .refer-button-copy {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.flex-column {
+    flex-direction: column!important;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+#post{
+    font-weight: 500 !important;
+}

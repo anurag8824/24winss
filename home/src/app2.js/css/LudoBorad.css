@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+  }
+  /* body{
+    background-color: rebeccapurple;
+  }
+  #root{
+    display: flex;
+  } */
+  .ludomain {
+    background-image: url("../uiComponents/infayouLudoBg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    /* display: flex; */
+    height: 100vh;
+    width: 427px;
+    margin: auto;
+  }
+  
+  .ludo-container {
+    width: 400px;
+    margin: auto;
+    /* margin-left: auto; */
+    height: 100%;
+  }
+  
+  .ludo-container .ludo {
+  
+    height: 400px;
+    width: 100%;
+    background-image: url("../uiComponents/ludo-bg.jpg");
+    background-size: contain;
+    position: relative;
+    top: 7%;
+    /* margin-top: 50px; */
+  }
+  
+  
+  .player-pieces {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .player-piece {
+    /* width: 4%;
+    height: 4%; */
+    height: 8%;
+    width: 8%;
+    margin-left: -20px;
+    margin-top: -27px;
+    /* border: 2px solid; */
+    /* border-radius: 10px; */
+    position: absolute;
+    transform: translate(50%, 50%);
+    transition: all .2s;
+  
+    z-index: 1;
+  
+    /* top: 15%;
+    left: 50%; */
+  }
+  .player-piece.highlight {
+    cursor: pointer;
+    border: 2px dashed;
+    animation: spin 1s infinite linear;
+  }
+  @keyframes spin {
+    0% {
+        transform: translate(50%, 50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(50%, 50%) rotate(180deg) scale(1.4);
+    }
+    100% {
+        transform: translate(50%, 50%) rotate(360deg);
+    }
+  }
+  /* .player-pieces img{
+    width:50px;
+    height:50px
+  
+  } */
+  
+  .dice {
+    perspective: 1000px; /* Required for 3D effect */
+    transition: transform 0.5s ease; /* Smooth transition for the transform effect */}
+  
+  .dice.spin {
+    animation: rollAnimation 0.8s ease infinite
+  }
+  @keyframes rollAnimation {
+    0% { transform: rotateX(0deg) rotateY(0deg); }
+    25% { transform: rotateX(90deg) rotateY(90deg); }
+    50% { transform: rotateX(180deg) rotateY(180deg); }
+    75% { transform: rotateX(270deg) rotateY(270deg); }
+    100% { transform: rotateX(360deg) rotateY(360deg); }
+  }
+  
+  .player-base {
+    width: 40%;
+    height: 40%;
+    border: 30px solid;
+    position: absolute;
+  }
+  
+  .player-bases [player-id="P1"].player-base {
+    bottom: 0;
+    left: 0;
+    border-color: #1295e7;
+  }
+  
+  .player-bases [player-id="P2"].player-base {
+    top: 0;
+    right: 0;
+    border-color: #049645;
+  }
+  
+  .player-base.highlight {
+    animation: border-blink .7s infinite ease-in-out;
+  }
+  
+  @keyframes border-blink {
+    50% {
+        border-color: rgba(255, 255, 255, 0.8);
+    }
+  }
+  
+  .btn {
+    /* padding: 8px 20px; */
+    border: 2px solid black;
+    border-radius: 17px;
+    /* cursor: pointer; */
+    /* font-size: 16px; */
+  }
+  
+  .btn:disabled {
+    opacity: 0.5;
+  }
+  
+  .btn-dice {
+    /* background-color: #009d60; */
+    /* color: white; */
+    height: 74px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .dice-value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .dice-main{
+    border-radius: 50%;
+    /* display: inline; */
+    /* margin-top: 76px; */
+    margin-left: 39%;
+    position: absolute;
+    top: 34%;
+    background-color: skyblue;
+    height: 70px;
+    width: 69px;
+    border: 4px solid gold;
+  }
+  .dice-main img{
+    height: 52px;
+    /* margin: auto; */
+    position: absolute;
+    top: 2%;
+   
+
+  }
+  .footer-avtar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .P1 img {
+    height: 96px;
+    /* padding: 0px 10px; */
+    border: 5px solid darkgoldenrod;
+    border-radius: 9%;
+    /* position: relative; */
+    display: block;
+    
+  }
+  .P2 img{
+    height: 96px;
+    /* padding: 0px 10px; */
+    border: 5px solid darkgoldenrod;
+    border-radius: 9%;
+    /* position: relative; */
+  }
+  .P1{
+    margin-top: -15px;
+    
+  }
+  .animation{
+    position: relative;
+  }
+  .P2{
+    margin-top: -15px;
+
+  }
+  .footer-last{
+    border: 2px solid gold;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    margin-top: 18px;
+    padding: 4px 0px 4px 0px;
+    background: linear-gradient(to top, #211818, #e50c0c);
+  }
+  .right{
+    display: flex;
+
+  }
+  .left{
+    display: flex;
+  }
+  .left-pieceimg img{
+    width: 28px;
+    margin-left: 20px;
+  
+
+    
+  }
+  .coin{
+    width: 11px;
+    height: 11px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 1px;
+    padding: 0px;
+  }
+.coin-five{
+  display: flex;
+}
+.nameBox{
+  background: #c0b6bc;
+  width: 80px;
+  height: 73px;
+  border: 2px solid gold;
+  border-radius: 10px;
+}
+
+.name-heading{
+  font-weight: bold;
+  margin-left: 27%;
+  overflow: hidden;
+  resize: none;
+}
+.Name{
+  font-size: 14px;
+}
+.animation::before {
+  content: "";
+  position: absolute;
+  top: 0px; /* Adjust to align with the border */
+  left: 0px; /* Adjust to align with the border */
+  width: 100%; /* Cover the image including its border */
+  height: 100%; /* Cover the image including its border */
+  border: 5px solid red;
+  box-sizing: border-box;
+  animation: borderAnimation 30s  forwards;
+  z-index: 1;
+  border-radius: 9%;
+}
+
+@keyframes borderAnimation {
+  0% {
+    clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+  }
+  25% {
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 0% 100%);
+  }
+  50% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  75% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 100%);
+  }
+  100% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+  }
+}
+
+.footer{
+
+        position: absolute;
+        bottom: 29%;
+}
+.sound{
+  height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 1%;
+    left: 80%;
+    border: 2px solid steelblue;
+    background-color: steelblue;
+    border-radius: 5px;
+}
+.sound img{
+  
+  height: 20px;
+
+}
+.leftContainer-Ludo{
+  background-color: rgb(15, 12, 12) !important;
+}
+.arrow{
+  position: absolute;
+    right: 25px;
+    top: -5%;
+    left: 40%;
+}
+.arrow img{
+  height: 68px;
+    width: 68px;
+}
+
+@keyframes shrink {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.shrink {
+  animation: shrink 1s infinite;
+}
+.dis{
+  display: none;
+}

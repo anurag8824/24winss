@@ -1,0 +1,22 @@
+.leftContainer{
+   display: block !important;   
+}
+h4{
+    font-size: 1.05rem !important;
+    /* font-weight: bold;
+    margin-bottom: 0; */
+}
+.card-header{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.btn{
+    padding: 12px;
+}
+
+.btn:hover{
+    background-color: #5851db;
+}
+
+
+

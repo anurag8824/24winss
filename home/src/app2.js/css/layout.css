@@ -1,0 +1,28 @@
+.leftContainer{
+    min-height: 100%;
+    position: relative;
+}
+.headerContainer, .leftContainer {
+    background-color: #ffffff !important;
+    max-width: 480px;
+    width: 100%;
+   
+}
+.rightContainer {
+    background: url(../../../public/Images/global-bg-rays.svg);
+    background-color: #fff;
+    background-size: cover;
+    overflow: hidden;
+    right: 0;
+    z-index: 4;
+}
+.rightContainer {
+    bottom: 0;
+    left: 480px;
+    position: fixed;
+    top: 0;
+    border-left: 10px solid #e0e0e0;
+}
+#root{
+    height: 100vh;
+}

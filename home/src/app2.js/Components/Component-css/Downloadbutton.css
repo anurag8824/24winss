@@ -1,0 +1,57 @@
+/*.modal {*/
+/*  position: fixed;*/
+/*  left: 0;*/
+/*  top: 0;*/
+/*  right: 0;*/
+/*  bottom: 0;*/
+/*  background-color: rgba(64, 64, 64, 0.95);*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*}*/
+
+/*.modal-content {*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  justify-content: space-between;*/
+/*  align-items: center;*/
+/*  background-color: white;*/
+/*  border-radius: 10px;*/
+/*  width: 40%;*/
+/*  padding: 10px 20px 10px 20px;*/
+/*}*/
+
+/*.modal-button {*/
+/*  border-radius: 50%;*/
+/*  background-color: rgb(93, 133, 93);*/
+/*  color: white;*/
+/*  padding: 5px 10px;*/
+/*  cursor: pointer;*/
+/*}*/
+body {
+ margin: 0;
+ padding: 0;
+ height:100%;
+}
+.App{
+ color: #228b22;
+ text-align: center;
+}
+.footer {
+/* background-image: linear-gradient(rgb(61, 128, 197), rgb(37, 61, 118)) !important; */
+
+ position: fixed;
+ width: 100%;
+ bottom: 0;
+ color: white;
+ font-size: 25px;
+}
+.my-sticky-footer {
+  text-align: center;
+ background-image: linear-gradient(rgb(61, 128, 197), rgb(37, 61, 118)) !important;
+  color: #fff;
+  padding: 20px; 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

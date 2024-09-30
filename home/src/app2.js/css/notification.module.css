@@ -1,0 +1,12 @@
+.games_section_headline { 
+    color: rgb(149, 149, 149); 
+    font-size: 0.75em; 
+    font-weight: 400; 
+    line-height: 18px;
+} 
+
+.games_section_title { 
+    color: rgb(44, 44, 44); 
+    font-size: 1em; 
+    font-weight: 700;
+} 
