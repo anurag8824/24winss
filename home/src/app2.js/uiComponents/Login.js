@@ -35,7 +35,7 @@ export default function Login() {
                 text: 'Please enter a valid phone number',
             });
         } else {
-            await axios.post(`http://localhost:2024/login`, {
+            await axios.post(`https://24winss.vercel.app/login`, {
                 Phone, referral
             }).then((response) => {
                 if (response.data.status === 101) {
@@ -77,7 +77,7 @@ export default function Login() {
                 text: 'You must agree to the terms and conditions to proceed',
             });
         } else {
-            await axios.post(`http://localhost:2024/login/finish`, {
+            await axios.post(`https://24winss.vercel.app/login/finish`, {
                 Phone,
                 twofactor_code,
                 referral,
