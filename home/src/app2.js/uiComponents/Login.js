@@ -38,6 +38,7 @@ export default function Login() {
             await axios.post(`https://24winss.vercel.app/login`, {
                 Phone, referral
             }).then((response) => {
+                console.log(res,"res")
                 if (response.data.status === 101) {
                     Swal.fire({
                         icon: 'error',
