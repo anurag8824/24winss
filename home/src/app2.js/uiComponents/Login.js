@@ -35,10 +35,10 @@ export default function Login() {
                 text: 'Please enter a valid phone number',
             });
         } else {
-            await axios.post(`https://24winss.vercel.app/login`, {
+            await axios.post("https://24winss.vercel.app/login", {
                 Phone, referral
             }).then((response) => {
-                console.log(res,"res")
+                console.log(response,"res")
                 if (response.data.status === 101) {
                     Swal.fire({
                         icon: 'error',
