@@ -35,7 +35,7 @@ export default function Login() {
                 text: 'Please enter a valid phone number',
             });
         } else {
-            await axios.post("https://24winss.vercel.app/login", {
+            await axios.post("https://api.infayou.shop/login", {
                 Phone, referral
             }).then((response) => {
                 console.log(response,"res")
@@ -78,7 +78,7 @@ export default function Login() {
                 text: 'You must agree to the terms and conditions to proceed',
             });
         } else {
-            await axios.post(`https://24winss.vercel.app/login/finish`, {
+            await axios.post(`https://api.infayou.shop/login/finish`, {
                 Phone,
                 twofactor_code,
                 referral,
