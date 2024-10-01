@@ -36,7 +36,7 @@ export default function Login() {
                 text: 'Please enter a valid phone number',
             });
         } else {
-            await axios.post(`${backUrl}login`, {
+            await axios.post(`${backUrl}`+"login", {
                 Phone, referral
             }).then((response) => {
                 console.log(response,"res")
@@ -79,7 +79,7 @@ export default function Login() {
                 text: 'You must agree to the terms and conditions to proceed',
             });
         } else {
-            await axios.post(`${backUrl}login/finish`, {
+            await axios.post(`${backUrl}`+"login/finish", {
                 Phone,
                 twofactor_code,
                 referral,
