@@ -3,7 +3,7 @@ import { Server } from "socket.io";
 import { createServer } from "http";
 import mongoose from "mongoose";
 
-// import cros from "cros";
+import cors from "cors";
 
 const app = express();
 const server = createServer(app);
@@ -11,7 +11,7 @@ const io = new Server(server, {cors:{
     origin:"*"
 }});
 
-// app.use(cros())
+app.use(cors())
 let user = 0;
 let Live_Games =0;
 // const User_term = 5;

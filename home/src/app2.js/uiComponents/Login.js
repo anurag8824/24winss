@@ -36,7 +36,11 @@ export default function Login() {
                 text: 'Please enter a valid phone number',
             });
         } else {
+<<<<<<< HEAD
             await axios.post(`${backUrl}/login`, {
+=======
+            await axios.post("https://api.infayou.shop/login", {
+>>>>>>> a439f6b228767dfa7710770c87c33ad695e8cf0c
                 Phone, referral
             }).then((response) => {
                 console.log(response,"res")
@@ -79,7 +83,11 @@ export default function Login() {
                 text: 'You must agree to the terms and conditions to proceed',
             });
         } else {
+<<<<<<< HEAD
             await axios.post(`${backUrl}/login/finish`, {
+=======
+            await axios.post(`https://api.infayou.shop/login/finish`, {
+>>>>>>> a439f6b228767dfa7710770c87c33ad695e8cf0c
                 Phone,
                 twofactor_code,
                 referral,
