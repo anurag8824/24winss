@@ -9,6 +9,7 @@ import loginss from "./ss.png";
 
 export default function Login() {
     const history = useHistory();
+    const backUrl = process.env.REACT_APP_BACKEND_LIVE_API;
 
     // State variables
     const [Phone, setPhone] = useState('');
@@ -35,7 +36,7 @@ export default function Login() {
                 text: 'Please enter a valid phone number',
             });
         } else {
-            await axios.post("https://24winss.vercel.app/login", {
+            await axios.post(`${backUrl}/login`, {
                 Phone, referral
             }).then((response) => {
                 console.log(response,"res")
@@ -78,7 +79,7 @@ export default function Login() {
                 text: 'You must agree to the terms and conditions to proceed',
             });
         } else {
-            await axios.post(`https://24winss.vercel.app/login/finish`, {
+            await axios.post(`${backUrl}/login/finish`, {
                 Phone,
                 twofactor_code,
                 referral,

@@ -28,6 +28,6 @@ import { io } from "socket.io-client";
 // }
 
 // export default getSocket;
-const socket = io("https://24winss-8wdz.vercel.app")
+const socket = io("https://gamesocket.infayou.shop")
 
 export default socket;
