@@ -28,6 +28,6 @@ import { io } from "socket.io-client";
 // }
 
 // export default getSocket;
-const socket = io("http://localhost:5000")
+const socket = io("https://24winss-8wdz.vercel.app")
 
 export default socket;
